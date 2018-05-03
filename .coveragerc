@@ -1,0 +1,12 @@
+[run]
+branch = True
+include =
+    ./skeleton/*
+omit =
+    ./skeleton/test/*
+
+[report]
+exclude_lines =
+    raise NotImplementedError
+fail_under = 90
+
