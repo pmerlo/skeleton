@@ -2,4 +2,4 @@ import skeleton
 
 
 def main():
-    print('I am a', skeleton.greet())
+    print(skeleton.greet())
